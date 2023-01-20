@@ -10,6 +10,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 // initial setup db
+/*
 const pool = require("./database");
 
 const createProducts = async (entryProducts) => {
@@ -31,6 +32,7 @@ const createProducts = async (entryProducts) => {
   }
 };
 createProducts([["test", "test", 25026, 4]]);
+*/
 
 // routes
 const productRouter = require("./routes/Product");

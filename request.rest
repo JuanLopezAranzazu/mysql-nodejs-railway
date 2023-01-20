@@ -1,3 +1,7 @@
+GET mysql-nodejs-railway-production.up.railway.app
+
+###
+
 GET http://localhost:3001/products
 
 ###
